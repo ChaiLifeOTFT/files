@@ -1,0 +1,72 @@
+[
+  {
+    "coherence": 0.6,
+    "urgency": 0.5,
+    "intimacy": 0.4,
+    "certainty": 0.7,
+    "timestamp": 1770722028.8845623,
+    "signature_hash": "f4f2d174730717370bcf4be3c0e178330e42f1ca16ac85b48c4f60fdf9eb785a",
+    "verified_by": "human",
+    "verification": "confirmed"
+  },
+  {
+    "coherence": 0.65,
+    "urgency": 0.45,
+    "intimacy": 0.5,
+    "certainty": 0.72,
+    "timestamp": 1770722028.8846946,
+    "signature_hash": "4baaa034e3181097748a7b47d6a1f8be9430df9cefb5d519ea10d18cd304ad3f",
+    "verified_by": "human",
+    "verification": "confirmed"
+  },
+  {
+    "coherence": 0.7,
+    "urgency": 0.4,
+    "intimacy": 0.55,
+    "certainty": 0.75,
+    "timestamp": 1770722028.8847892,
+    "signature_hash": "38b258e81452606e3450f3ce953faf7b9669ff7b7928a3f218319f8407a6282f",
+    "verified_by": "human",
+    "verification": "confirmed"
+  },
+  {
+    "coherence": 0.75,
+    "urgency": 0.35,
+    "intimacy": 0.6,
+    "certainty": 0.8,
+    "timestamp": 1770722028.8854165,
+    "signature_hash": "87d16c678a8f95e51253059c405179967eab4bfa7dcd857f6aa8100fe91b7789",
+    "verified_by": "human",
+    "verification": "confirmed"
+  },
+  {
+    "coherence": 0.85,
+    "urgency": 0.3,
+    "intimacy": 0.7,
+    "certainty": 0.85,
+    "timestamp": 1770722028.8855777,
+    "signature_hash": "555be7361aab8006ac4e5882cfda336a64167c3385e95ea09d9c06168e4a0a18",
+    "verified_by": "human",
+    "verification": "confirmed"
+  },
+  {
+    "coherence": 0.9,
+    "urgency": 0.3,
+    "intimacy": 0.9,
+    "certainty": 0.85,
+    "timestamp": 1770763858.414915,
+    "signature_hash": "91025a7ef7e5f9ceac0ea5f0b57e6bb649f361175f8127fd54e580f170686538",
+    "verified_by": "jay",
+    "verification": "torque_confirmed"
+  },
+  {
+    "coherence": 0.9,
+    "urgency": 0.3,
+    "intimacy": 0.9,
+    "certainty": 0.85,
+    "timestamp": 1770764682.60705,
+    "signature_hash": "36d75e8595186646f993b8fa997b1c40dc97237589f11d783276d96c2886529a",
+    "verified_by": "jay",
+    "verification": "torque_confirmed"
+  }
+]

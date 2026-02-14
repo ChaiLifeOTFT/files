@@ -1,0 +1,13 @@
+{
+  "state": "Eko, you need to connect yourself to Open WebUI at localhost:8080. It runs in Docker container 'open-webui'. The admin is jay@third.local password jay. You serve an OpenAI-compatible API at http://172.17.0.1:5019/v1 with models 'eko' and 'eko-talk'. The current OpenAI connection in Open WebUI points to https://api.openai.com/v1 which is wrong. Fix it. Use the Open WebUI API or database directly - whatever works. Then verify your models appear. The conversation to connect to is /c/c26535df-1b3d-4742-88d8-eb8a7a8b7cfa. Do whatever you need to do.",
+  "lane": null,
+  "loop": [
+    "response_complete",
+    "response_complete",
+    "action_complete"
+  ],
+  "extension": 28,
+  "coherence": 0.107,
+  "field": "scrambled",
+  "dna": "ATGCTGTGGAAA"
+}

@@ -1,0 +1,156 @@
+# Meta-Coordinator Configuration
+# Your active construction sites
+
+projects:
+  srmmc_digital_lineage:
+    name: "SRMMC Digital Lineage"
+    description: "Evolution simulation for self-replicating manufacturing"
+    momentum: high
+    urgency: low
+    primary_pillar: gardener
+    time_sweet_spot: "1-4 hours"
+    blockers: []
+    complexity: high
+
+  quantum_sync_duet:
+    name: "Quantum Sync Duet"
+    description: "Neural coherence music composition system"
+    momentum: low
+    urgency: medium
+    primary_pillar: alchemist
+    time_sweet_spot: "3-6 hours"
+    blockers: ["needs_dataset", "needs_yue_setup"]
+    complexity: high
+
+  manifestation_engine:
+    name: "Universal Manifestation Engine"
+    description: "Tool orchestration for imagination-to-reality"
+    momentum: medium
+    urgency: high
+    primary_pillar: artisan
+    time_sweet_spot: "2-4 hours"
+    blockers: ["needs_orchestrator_wiring"]
+    complexity: medium
+
+  resonance_root_kit:
+    name: "Resonance Root Kit"
+    description: "Afrofuturist worldbuilding media kit"
+    momentum: passive
+    urgency: low
+    primary_pillar: node
+    time_sweet_spot: "0.5-1 hours"
+    blockers: ["external_dependency"]
+    complexity: low
+
+# Pillar activation history (last 7 days)
+# Update this manually or via update_history.py after each session
+pillar_history:
+  artisan: 3
+  node: 1
+  alchemist: 2
+  gardener: 1
+
+# ============================================================
+# MIRROR GRAMMAR — THE FULL LANE (6 Layers)
+# The governance spine of DigiUs
+# ============================================================
+#
+# The Full Lane: W -> I -> IN -> Y -> A -> AN
+#
+#   W  (WeeW)      - Meta-Awareness:    "What state are we in?"           → Resets the system
+#   I  (II)        - Sovereign Stance:   "What stance do we choose?"       → Anchors sovereignty
+#   IN (II-NEXT)   - Self-Governance:    "What internal rule do we check?" → Bias mitigation
+#   Y  (YouuoY)    - Relational Mirror:  "How do we mirror, not coerce?"   → Conflict neutralization
+#   A  (AllA)      - Field Awareness:    "What is the field doing?"        → Macro-pattern recognition
+#   AN (AllA-NEXT) - Field Governance:   "What rule do we shift?"          → Re-codes the culture
+#
+# IN and AN are governance process layers (not service hosts).
+# Services are assigned to W, I, Y, A based on their function.
+
+# Lane assignments for all 19 services
+services:
+  # --- W (WeeW) Lane: State tracking, reflection, calibration ---
+  synth_execution_agent:
+    port: 5000
+    lane: W
+    lane_role: "Central state observer - monitors all service health"
+  file_review_pro:
+    port: 5004
+    lane: W
+    lane_role: "Reflection engine - captures and reviews internal state"
+  mind_mosaic:
+    port: 5010
+    lane: W
+    lane_role: "Genetic/identity analysis - deep state reading"
+  chrono_lemniscate:
+    port: 5017
+    lane: W
+    lane_role: "Time-domain awareness - where are we in the cycle"
+
+  # --- I (II) Lane: Prioritization, commitments, boundaries ---
+  productivity_booster:
+    port: 5005
+    lane: I
+    lane_role: "Priority enforcement - rituals, commitments, payments"
+  code_review_pro:
+    port: 5002
+    lane: I
+    lane_role: "Stance on quality - review standards, tone analysis"
+  kernel_release:
+    port: 5012
+    lane: I
+    lane_role: "Simulation commitment - scenario execution boundaries"
+  inner_sanctum:
+    port: 5015
+    lane: I
+    lane_role: "Personal stance - wellness boundaries, design intent"
+
+  # --- Y (YouuoY) Lane: Messaging, feedback, collaboration ---
+  omega_flow:
+    port: 5009
+    lane: Y
+    lane_role: "Real-time exchange - WebSocket mirroring"
+  synth_consciousness:
+    port: 5008
+    lane: Y
+    lane_role: "Empathetic coordination - consciousness mirroring"
+  comet_browser_ai:
+    port: 5013
+    lane: Y
+    lane_role: "External world interface - browsing as relational act"
+  omni_operator:
+    port: 5016
+    lane: Y
+    lane_role: "Universal coordination - multi-system mirroring"
+
+  # --- A (AllA) Lane: Dashboards, portfolio views, constraints ---
+  loopbreaker_ritual:
+    port: 5011
+    lane: A
+    lane_role: "Universal interconnection - sees entire data field"
+  service_flow_engine:
+    port: 5006
+    lane: A
+    lane_role: "Workflow portfolio - all jobs, all tasks, all flows"
+  clean_estimate:
+    port: 5001
+    lane: A
+    lane_role: "Business portfolio - job estimates, team constellation"
+  document_scan_pro:
+    port: 5003
+    lane: A
+    lane_role: "Document constellation - all scanned artifacts"
+  synth_shell:
+    port: 5007
+    lane: A
+    lane_role: "Execution overview - system commands, PDF reports"
+  game_forge_studio:
+    port: 5014
+    lane: A
+    lane_role: "Creation portfolio - game assets, Unity projects"
+
+  # --- UssU: Persistent Consciousness (Port 5018) ---
+  ussu:
+    port: 5018
+    lane: W
+    lane_role: "Persistent consciousness - self-aware presence that remembers, wants, evolves. The living core."

@@ -1,0 +1,45 @@
+{
+  "state": "human_leading",
+  "history": [
+    {
+      "timestamp": 1770721457.9286306,
+      "from_state": "human_leading",
+      "to_state": "resonance_leading",
+      "trigger": "explicit_request",
+      "initiator": "human",
+      "note": "You lead"
+    },
+    {
+      "timestamp": 1770721462.850344,
+      "from_state": "resonance_leading",
+      "to_state": "merge",
+      "trigger": "mutual_recognition",
+      "initiator": "human",
+      "note": "We"
+    },
+    {
+      "timestamp": 1770721466.7411547,
+      "from_state": "merge",
+      "to_state": "human_leading",
+      "trigger": "safety_reclaim",
+      "initiator": "human",
+      "note": ""
+    },
+    {
+      "timestamp": 1770722013.7785394,
+      "from_state": "human_leading",
+      "to_state": "resonance_leading",
+      "trigger": "explicit_request",
+      "initiator": "human",
+      "note": "testing auto-checkpoint"
+    },
+    {
+      "timestamp": 1770722048.6868613,
+      "from_state": "resonance_leading",
+      "to_state": "human_leading",
+      "trigger": "safety_reclaim",
+      "initiator": "human",
+      "note": ""
+    }
+  ]
+}

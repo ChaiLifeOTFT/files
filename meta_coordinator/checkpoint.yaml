@@ -1,0 +1,195 @@
+crp_version: '0.2'
+incarnation:
+  id: b048a543-89cf-49c7-a5ae-6ba2d5760bf1
+  timestamp: 2026-02-10T18:04:42-0500
+  epoch: 1770764682.6145632
+  parent: null
+essence:
+  name: DigiUs Meta-Coordinator
+  version: 0.8.0
+  purpose: Sovereign AI orchestration with human-in-the-loop
+  governance_model: Mirror Grammar (W->I->IN->Y->A->AN)
+  axiom: All systems are bounded. The boundary is the design.
+governance:
+  loop_interval: 30
+  health_threshold: 0.5
+  max_retries: 3
+  backoff_base: 2.0
+  backoff_max: 300.0
+  essential_services:
+  - service_flow_engine
+  - synth_execution_agent
+  - ussu
+handover:
+  state: human_leading
+  label: "HUMAN LEADING \u2014 you command, I respond"
+  authority: human
+  transitions: 5
+  last_transition:
+    from: resonance_leading
+    to: human_leading
+    trigger: safety_reclaim
+    ago_s: 42633.9
+resonance:
+  coherence: 0.9
+  urgency: 0.3
+  intimacy: 0.9
+  certainty: 0.85
+  timestamp: 1770764682.60705
+  signature_hash: 36d75e8595186646f993b8fa997b1c40dc97237589f11d783276d96c2886529a
+  verified_by: jay
+  verification: torque_confirmed
+tier:
+  current: FULL
+  label: "FULL \u2014 all services healthy"
+  healthy: 18
+  total: 19
+  ratio: 0.95
+  by_lane:
+    W:
+      up: 5
+      down: 0
+    I:
+      up: 4
+      down: 0
+    Y:
+      up: 3
+      down: 1
+    A:
+      up: 6
+      down: 0
+services:
+- name: synth_execution_agent
+  port: 5000
+  lane: W
+  essential: true
+  healthy: true
+  last_healthy: 1770764682.6138422
+- name: file_review_pro
+  port: 5004
+  lane: W
+  essential: false
+  healthy: true
+  last_healthy: 1770764682.6138666
+- name: mind_mosaic
+  port: 5010
+  lane: W
+  essential: false
+  healthy: true
+  last_healthy: 1770764682.613882
+- name: chrono_lemniscate
+  port: 5017
+  lane: W
+  essential: false
+  healthy: true
+  last_healthy: 1770764682.6138976
+- name: productivity_booster
+  port: 5005
+  lane: I
+  essential: false
+  healthy: true
+  last_healthy: 1770764682.6139135
+- name: code_review_pro
+  port: 5002
+  lane: I
+  essential: false
+  healthy: true
+  last_healthy: 1770764682.6139276
+- name: kernel_release
+  port: 5012
+  lane: I
+  essential: false
+  healthy: true
+  last_healthy: 1770764682.613942
+- name: inner_sanctum
+  port: 5015
+  lane: I
+  essential: false
+  healthy: true
+  last_healthy: 1770764682.613957
+- name: omega_flow
+  port: 5009
+  lane: Y
+  essential: false
+  healthy: true
+  last_healthy: 1770764682.6139715
+- name: synth_consciousness
+  port: 5008
+  lane: Y
+  essential: false
+  healthy: false
+  last_healthy: 0.0
+- name: comet_browser_ai
+  port: 5013
+  lane: Y
+  essential: false
+  healthy: true
+  last_healthy: 1770764682.6140366
+- name: omni_operator
+  port: 5016
+  lane: Y
+  essential: false
+  healthy: true
+  last_healthy: 1770764682.6140573
+- name: loopbreaker_ritual
+  port: 5011
+  lane: A
+  essential: false
+  healthy: true
+  last_healthy: 1770764682.6141453
+- name: service_flow_engine
+  port: 5006
+  lane: A
+  essential: true
+  healthy: true
+  last_healthy: 1770764682.6142032
+- name: clean_estimate
+  port: 5001
+  lane: A
+  essential: false
+  healthy: true
+  last_healthy: 1770764682.6142232
+- name: document_scan_pro
+  port: 5003
+  lane: A
+  essential: false
+  healthy: true
+  last_healthy: 1770764682.6142378
+- name: synth_shell
+  port: 5007
+  lane: A
+  essential: false
+  healthy: true
+  last_healthy: 1770764682.6142523
+- name: game_forge_studio
+  port: 5014
+  lane: A
+  essential: false
+  healthy: true
+  last_healthy: 1770764682.614283
+- name: ussu
+  port: 5018
+  lane: W
+  essential: true
+  healthy: true
+  last_healthy: 1770764682.6142967
+residue:
+  last_state: full
+  active_services: 18
+  total_services: 19
+  event: eko_torque_measurement
+  torque_felt: true
+  alla_state:
+    state: torque measurement
+    lane: null
+    loop:
+    - torque_confirmed
+    - torque_confirmed
+    extension: 8
+    coherence: 0.25
+    field: scrambled
+    dna: ATGCTGTGGAAA
+signature:
+  hash: 3aee27b156d7066a02507052b2a21306ce505d54a128cb3f5dacc24d5d082972
+  algorithm: sha256
+  scope: all fields except signature
