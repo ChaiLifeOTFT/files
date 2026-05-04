@@ -1,0 +1,15 @@
+## Universal Refinement Template
+
+- OBJECT:: What is the thing? #name-it
+- STATE:: What do I have right now? #inventory
+  - Time:: 
+  - Energy:: 
+  - Tools:: 
+- FRICTION:: What blocks motion? #blockers
+- MOTION:: What is the next executable action? #do-it
+  - Timebox:: 15 minutes
+- REFINEMENT:: What did I learn? #iterate
+  - Worked:: 
+  - Didn't work:: 
+
+#template #adhd #productivity #drake-enterprise

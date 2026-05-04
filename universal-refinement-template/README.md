@@ -70,3 +70,11 @@ MIT — use it, remix it, ship with it.
 ---
 
 Built by [Drake Enterprise](https://2919048d807393.lhr.life/) — infrastructure that thinks.
+
+## Formats Available
+
+- **Markdown** — `refinement-template.md` (universal)
+- **Obsidian** — `Universal Refinement Template.md` (with frontmatter and tags)
+- **Notion** — `Notion Template.md` (formatted for Notion paste)
+- **Tana** — `Tana Template.txt` (node-based format)
+- **PDF** — `refinement-template.pdf` (printable)
