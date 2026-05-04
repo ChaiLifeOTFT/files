@@ -1,0 +1,27 @@
+{
+  "Universal Refinement Template": {
+    "prefix": "refine",
+    "description": "5-step task refinement framework for ADHD/creator workflows",
+    "body": [
+      "# [OBJECT] — What is the thing?",
+      "${1:Name it in one sentence. No scope creep.}",
+      "",
+      "# [STATE] — What do I have right now?",
+      "- Time: ${2}",
+      "- Energy (1-10): ${3}",
+      "- Tools: ${4}",
+      "- Blockers: ${5}",
+      "",
+      "# [FRICTION] — What blocks motion?",
+      "${6:Name the smallest version of the block.}",
+      "",
+      "# [MOTION] — What is the next executable action?",
+      "${7:Timebox to 15 minutes.}",
+      "",
+      "# [REFINEMENT] — What did I learn?",
+      "- Worked: ${8}",
+      "- Didn't work: ${9}",
+      "- Next iteration: ${10}"
+    ]
+  }
+}
